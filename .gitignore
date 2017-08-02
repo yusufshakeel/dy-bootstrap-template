@@ -1,0 +1,48 @@
+# Composer files
+##################
+composer.phar
+vendor/
+
+# Node Modules NPM files
+##########################
+/node_modules
+
+# Idea
+########
+/.idea/workspace.xml
+/.idea/tasks.xml
+
+# VIM
+#######
+*.swp
+*.swo
+
+# Compiled source
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
