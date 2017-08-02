@@ -6,6 +6,9 @@ This project contains templates using Twitter Bootstrap.
 - [Download the latest release.](https://github.com/yusufshakeel/dy-bootstrap-template/releases)
 - Clone the repo: `git clone https://github.com/yusufshakeel/dy-bootstrap-template.git`
 
+# Requirement
+- Bootstrap 3
+- jQuery 1.12.4
 
 # License
 MIT License
