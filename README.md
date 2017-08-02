@@ -11,6 +11,12 @@ This project contains templates using Twitter Bootstrap.
 - jQuery 1.12.4 [Download](http://code.jquery.com/)
 - FontAwesome [Download](http://fontawesome.io/)
 - IonIcons [CDN v2.0.1](http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css)
+- Node and NPM to install the dependencies (optional, if using node)
+
+# Init
+- Download the project code.
+- Download the dependencies (like, `npm install`)
+
 
 # License
 MIT License
