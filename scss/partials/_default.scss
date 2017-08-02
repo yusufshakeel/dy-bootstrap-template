@@ -1,0 +1,30 @@
+body {
+}
+
+.#{$projectPrefix}-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/*=margin
+  =padding
+---------------------*/
+$css_property_padding_margin: margin, padding;
+@each $css_prop in $css_property_padding_margin {
+  @for $i from 0 through 100 {
+    .#{$projectPrefix}-#{$css_prop}-#{$i * 5} {
+      #{$css_prop} : $i * 5px;
+    }
+  }
+}
+
+@each $css_prop in $css_property_padding_margin {
+  $list: top, bottom, left, right;
+  @each $dir in $list {
+    @for $i from 0 through 100 {
+      .#{$projectPrefix}-#{$css_prop}-#{$dir}-#{$i * 5} {
+        #{$css_prop}-#{$dir} : $i * 5px;
+      }
+    }
+  }
+}

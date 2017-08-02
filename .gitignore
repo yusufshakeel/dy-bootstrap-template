@@ -46,3 +46,8 @@ vendor/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+#################
+# SASS
+#################
+/.sass-cache/
