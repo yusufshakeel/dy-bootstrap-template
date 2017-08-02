@@ -1,0 +1,22 @@
+{
+  "name": "dy-bootstrap-template",
+  "description": "This project contains templates using Twitter Bootstrap.",
+  "main": "index.js",
+  "authors": [
+    "Yusuf Shakeel"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Twitter",
+    "Bootstrap",
+    "Templates"
+  ],
+  "homepage": "https://github.com/yusufshakeel/dy-bootstrap-template",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
