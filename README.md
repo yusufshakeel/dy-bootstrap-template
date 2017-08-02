@@ -7,8 +7,10 @@ This project contains templates using Twitter Bootstrap.
 - Clone the repo: `git clone https://github.com/yusufshakeel/dy-bootstrap-template.git`
 
 # Requirement
-- Bootstrap 3
-- jQuery 1.12.4
+- Bootstrap 3 [Download](http://getbootstrap.com/getting-started/#download)
+- jQuery 1.12.4 [Download](http://code.jquery.com/)
+- FontAwesome [Download](http://fontawesome.io/)
+- IonIcons [CDN v2.0.1](http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css)
 
 # License
 MIT License
