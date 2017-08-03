@@ -1,6 +1,6 @@
 /*=skin
 --------------*/
-$css_skin_background_color: 'aqua', 'aquamarine', 'azure', 'beige', 'black', 'coral', 'cornflowerblue', 'floralwhite', 'ghostwhite', 'gold', 'honeydew', 'hotpink', 'lightgray', 'lightsalmon', 'lightyellow';
+$css_skin_background_color: 'aqua', 'aquamarine', 'azure', 'beige', 'black', 'coral', 'cornflowerblue', 'floralwhite', 'ghostwhite', 'gold', 'honeydew', 'hotpink', 'lightgray', 'lightsalmon', 'lightyellow', 'white';
 @each $css_prop in $css_skin_background_color {
   .#{$projectPrefix}-#{skin}-#{$css_prop} {
     background-color : #{$css_prop};
