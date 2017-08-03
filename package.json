@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/yusufshakeel/dy-bootstrap-template/issues"
   },
-  "homepage": "https://github.com/yusufshakeel/dy-bootstrap-template#readme"
+  "homepage": "https://github.com/yusufshakeel/dy-bootstrap-template#readme",
+  "devDependencies": {}
 }
