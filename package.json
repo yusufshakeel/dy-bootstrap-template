@@ -27,6 +27,7 @@
     "font-awesome": "^4.7.0",
     "grunt": "^1.0.1",
     "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-sass": "^1.0.0",
     "ionicons": "^2.0.1",
     "jquery": "^1.12.4"
   }

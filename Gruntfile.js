@@ -5,6 +5,16 @@ module.exports = function(grunt) {
 
         pkg: grunt.file.readJSON('package.json'),
 
+        sass : {
+            dist : {
+                options: {
+                },
+                files : {
+                    "css/dy-bootstrap-template.css":"scss/dy-bootstrap-template.scss"
+                }
+            }
+        },
+
         cssmin : {
             options: {
                 banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
@@ -18,10 +28,13 @@ module.exports = function(grunt) {
 
     });
 
+    // load sass plugin
+    grunt.loadNpmTasks('grunt-contrib-sass');
+
     //load cssmin plugin
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
     //create default task
-    grunt.registerTask("default", ["cssmin"]);
+    grunt.registerTask("default", ["sass","cssmin"]);
 
 };
