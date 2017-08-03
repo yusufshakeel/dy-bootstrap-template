@@ -8,10 +8,7 @@ module.exports = function(grunt) {
         cssmin : {
             options: {
                 banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' +
-                // '<%= grunt.template.today("yyyy-mm-dd") %>' +
-                ' Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>' +
-                ' <%= pkg.license %> License' +
-                '*/'
+                '<%= grunt.template.today("yyyy-mm-dd") %> */'
             },
             target : {
                 src : ["css/dy-bootstrap-template.css"],
