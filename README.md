@@ -1,7 +1,6 @@
 # dy-bootstrap-template
 This project contains templates using Twitter Bootstrap.
 
-
 # Getting started
 - [Download the latest release.](https://github.com/yusufshakeel/dy-bootstrap-template/releases)
 - Clone the repo: `git clone https://github.com/yusufshakeel/dy-bootstrap-template.git`
