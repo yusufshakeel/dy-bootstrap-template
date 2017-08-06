@@ -12,10 +12,11 @@ This project contains templates using Twitter Bootstrap.
 - IonIcons [CDN v2.0.1](http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css)
 - AnimateCSS [Download](https://daneden.github.io/animate.css/)
 - Node and NPM to install the dependencies (if using node)
+- Bower to install the dependencies (if using bower)
 
 # Init
 - Download the project code.
-- Download the dependencies (example, `npm install`)
+- Download the dependencies (example, `npm install`) or use the dependencies from the bower_components directory
 
 
 # License
