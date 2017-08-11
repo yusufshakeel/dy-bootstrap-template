@@ -3055,6 +3055,17 @@
   border: 1px solid #666;
   width: 300px; }
 
+/*=font-weight
+-----------------*/
+.dybt-font-weight-lighter {
+  font-weight: lighter; }
+
+.dybt-font-weight-bold {
+  font-weight: bold; }
+
+.dybt-font-weight-bolder {
+  font-weight: bolder; }
+
 /*=bg-color
 --------------*/
 .dybt-color-aqua {
@@ -3204,5 +3215,29 @@
 
 .dybt-skin-white {
   background-color: white; }
+
+/*=blog
+--------------*/
+.dybt-blogpost-container {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px; }
+  .dybt-blogpost-container .dybt-blogpost-coverimage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 480px; }
+  .dybt-blogpost-container .dybt-blogpost-title {
+    font-size: 32px; }
+  .dybt-blogpost-container .dybt-blogpost-title a {
+    text-decoration: none; }
+  .dybt-blogpost-container .dybt-blogpost-createdat {
+    font-style: italic;
+    font-size: 16px; }
+  .dybt-blogpost-container .dybt-blogpost-excerpt {
+    font-size: 20px;
+    font-weight: 300; }
+  .dybt-blogpost-container .dybt-blogpost-text-content {
+    font-size: 20px; }
 
 /*# sourceMappingURL=dy-bootstrap-template.css.map */

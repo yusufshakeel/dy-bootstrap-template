@@ -1,0 +1,38 @@
+/*=blog
+--------------*/
+.dybt-blogpost-container {
+
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  .dybt-blogpost-coverimage {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 480px;
+  }
+
+  .dybt-blogpost-title {
+    font-size: 32px;
+  }
+
+  .dybt-blogpost-title a {
+    text-decoration: none;
+  }
+
+  .dybt-blogpost-createdat {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  .dybt-blogpost-excerpt {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .dybt-blogpost-text-content {
+    font-size: 20px;
+  }
+
+}
