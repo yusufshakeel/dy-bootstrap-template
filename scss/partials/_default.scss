@@ -28,3 +28,26 @@ $css_property_padding_margin: margin, padding;
     }
   }
 }
+
+/*=hr
+------------*/
+.dybt-hr-sm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #666;
+  width: 100px;
+}
+
+.dybt-hr-md {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #666;
+  width: 200px;
+}
+
+.dybt-hr-lg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #666;
+  width: 300px;
+}

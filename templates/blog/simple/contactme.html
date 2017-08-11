@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Blog</title>
+    <title>Blog - Contact Me</title>
     <!-- bootstrap css -->
     <link rel="stylesheet" href="../../../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- fontawesome css -->
@@ -49,10 +49,10 @@
 
                     <ul class="nav navbar-nav navbar-right">
 
-                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./blog.html">Blog</a></li>
                         <li><a href="./about.html">About</a></li>
-                        <li><a href="./contactme.html">Contact</a></li>
+                        <li class="active"><a href="./contactme.html">Contact</a></li>
 
                     </ul><!--/ .navbar-nav -->
 
@@ -87,13 +87,78 @@
 
         </header><!--/ header -->
 
-        <div class="container-fluid dybt-margin-top-30 dybt-margin-bottom-30">
+        <div class="container-fluid dybt-margin-top-30">
 
             <div class="row">
 
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 text-center">
 
+                    <h2>Contact</h2>
 
+                    <h3>You can email me at</h3>
+                    <h4>helloworld@example.com</h4>
+
+                    <h3>Or call the following number</h3>
+                    <h4>+91 00 000 000 00</h4>
+                    <h5>10am to 6pm</h5>
+
+                    <a href="https://www.google.co.in/maps/@12.9133238,77.6380961,16.32z"
+                       target="_blank">
+                        <img src="../../../image/map.png"
+                             alt="google map"
+                             class="img-responsive dybt-margin-top-30">
+                    </a>
+
+                </div><!--/ .col -->
+
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+                    <p class="text-center lead">You can leave a message by filling the given form</p>
+
+                    <!--
+                    In order to use this form you will have to move this page
+                    on a server that is running PHP and is capable of sending
+                    emails.
+
+                    check the following on your server
+                    PHP 5.4 or higher
+                    sendmail m4
+                    -->
+
+                    <form>
+                        <div class="form-group">
+                            <label>Name*</label>
+                            <input type="text"
+                                   class="form-control input-lg"
+                                   required maxlength="120">
+                        </div>
+                        <div class="form-group">
+                            <label>Email*</label>
+                            <input type="email"
+                                   class="form-control input-lg"
+                                   required maxlength="120">
+                        </div>
+                        <div class="form-group">
+                            <label>Subject*</label>
+                            <input type="text"
+                                   class="form-control input-lg"
+                                   required maxlength="300">
+                        </div>
+                        <div class="form-group">
+                            <label>Message*</label>
+                            <textarea rows="6"
+                                      class="form-control"
+                                      maxlength="1000"
+                                      required
+                                      style="resize: none;"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit"
+                                   class="btn btn-primary btn-lg pull-right"
+                                   value="Send">
+                        </div>
+                    </form>
 
                 </div><!--/ .col -->
 
