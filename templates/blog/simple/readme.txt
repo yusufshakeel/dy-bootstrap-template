@@ -10,3 +10,4 @@ Images
 https://www.pexels.com/photo/adventure-alpine-background-black-and-white-355770/
 https://www.pexels.com/photo/action-animal-avian-birds-357140/
 https://www.pexels.com/photo/mountains-and-river-during-daytime-151523/
+https://www.pexels.com/photo/sky-clouds-wind-windmill-9135/
