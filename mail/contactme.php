@@ -8,7 +8,7 @@ if(empty($_POST['name']) || empty($_POST['email']) || empty($_POST['subject']) |
 // sanitize
 $sender_name = strip_tags(htmlspecialchars($_POST['name']));
 $sender_email = strip_tags(htmlspecialchars($_POST['email']));
-$sender_subject = strip_tags(htmlspecialchars($_POST['phone']));
+$sender_subject = strip_tags(htmlspecialchars($_POST['subject']));
 $sender_message = strip_tags(htmlspecialchars($_POST['message']));
 
 /**
